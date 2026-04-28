@@ -70,65 +70,54 @@ We study the impact of architectural and value-function design choices on learni
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Result</h2>
-
-        <h3 class="title is-4">Random Policy</h3>
-        <div class="columns is-centered">
-          <div class="column">
-            <video autoplay muted loop playsinline controls width="100%">
+        <div class="columns is-multiline is-centered">
+          <!-- Video Cards Start -->
+          <div class="column is-half">
+            <h3 class="title is-4">Random Policy</h3>
+            <video autoplay muted loop playsinline controls style="width:100%; max-width:700px; height:auto;">
               <source src="./static/videos/random_run.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
-
-        <h3 class="title is-4">PPO (On-policy Policy-gradient RL)</h3>
-        <div class="columns is-centered">
-          <div class="column">
-            <video autoplay muted loop playsinline controls width="100%">
+          <div class="column is-half">
+            <h3 class="title is-4">PPO (On-policy Policy-gradient RL)</h3>
+            <video autoplay muted loop playsinline controls style="width:100%; max-width:700px; height:auto;">
               <source src="./static/videos/ppo_run.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
-
-        <h3 class="title is-4">SAC (Off-policy Q-function-based RL)</h3>
-        <div class="columns is-centered">
-          <div class="column">
-            <video autoplay muted loop playsinline controls width="100%">
+          <div class="column is-half">
+            <h3 class="title is-4">SAC (Off-policy Q-function-based RL)</h3>
+            <video autoplay muted loop playsinline controls style="width:100%; max-width:700px; height:auto;">
               <source src="./static/videos/sac_run.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
-
-        <h3 class="title is-4">MBPO (Model-based RL)</h3>
-        <div class="columns is-centered">
-          <div class="column">
-            <video autoplay muted loop playsinline controls width="100%">
+          <div class="column is-half">
+            <h3 class="title is-4">MBPO (Model-based RL)</h3>
+            <video autoplay muted loop playsinline controls style="width:100%; max-width:700px; height:auto;">
               <source src="./static/videos/mbpo_run.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
-
-        <h3 class="title is-4">Modification 1 : Multi-Critic Learning for Multiple Objectives in Locomotion</h3>
-        <div class="columns is-centered">
-          <div class="column">
-            <!-- <video autoplay muted loop playsinline controls width="100%">
-              <source src="./static/videos/sac_run.mp4" type="video/mp4">
+          <div class="column is-half">
+            <h3 class="title is-4">Multi-Critic Learning for Multiple Objectives in Locomotion (Modification 1)</h3>
+            <!-- Uncomment below when you have a video -->
+            <!--
+            <video autoplay muted loop playsinline controls style="width:100%; max-width:700px; height:auto;">
+              <source src="./static/videos/multicritic_run.mp4" type="video/mp4">
               Your browser does not support the video tag.
-            </video> -->
+            </video>
+            -->
           </div>
-        </div>
-
-        <h3 class="title is-4">Temporal Proprioceptive Encoding via Self-Attention (Modification 2)</h3>
-        <div class="columns is-centered">
-          <div class="column">
-            <video autoplay muted loop playsinline controls width="100%">
+          <div class="column is-half">
+            <h3 class="title is-4">Temporal Proprioceptive Encoding via Self-Attention (Modification 2)</h3>
+            <video autoplay muted loop playsinline controls style="width:100%; max-width:700px; height:auto;">
               <source src="./static/videos/transformer_run.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
+          <!-- Video Cards End -->
         </div>
       </div>
     </div>
